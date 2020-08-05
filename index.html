@@ -7,7 +7,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="lib/reset.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="lib/vidbg.css">
     <link rel="stylesheet" href="css/main.css">
+    <script src="lib/vidbg.js" defer></script>
+    <script src="lib/rellax.min.js" defer></script>
+    <script src="js/main.js" defer></script>
 </head>
 <body>
     <header class="header">
@@ -37,9 +41,9 @@
         <div class="container main-screen-wrapper">
             <h1 class="main-title">Falcon Heavy</h1>
             <p class="main-desc">The most powerful operational rocket in the world by a factor of two</p>
-            <img src="img/main-screen.png" alt="Earth" class="main-img">
         </div>
     </main>
+    <div class="video"></div>
     <section class="second-screen">
         <div class="container second-screen-wrapper">
             <h2 class="overview">Falcon Heavy Overview</h2>
@@ -74,7 +78,7 @@
                 capable rocket flying. By comparison, the liftoff thrust of the Falcon Heavy equals approximately
                 eighteen 747 aircraft at full power. Falcon Heavy can lift the equivalent of a fully loaded 737
                 jetliner—complete with passengers, luggage and fuel—to orbit.</p>
-            <img src="img/second-screen.png" alt="rocket" class="rocket">
+            <img src="img/second-screen.png" alt="rocket" class="rocket" data-rellax-speed="7">
         </div>
     </section>
     <footer class="footer">

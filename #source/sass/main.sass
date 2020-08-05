@@ -42,7 +42,7 @@ ul, li
 .main-screen
     &-wrapper
         text-align: center
-        padding: 90px 0
+        padding: 90px 0 0
         .main-title
             font-size: 64px
             line-height: 75px  
@@ -64,6 +64,10 @@ ul, li
                 background: #ffffff
                 left: 50%
                 top: 70px
+.video
+    height: 750px
+    max-width: 1235px
+    margin: 0 auto
 .second-screen
     padding: 500px 0
     &-wrapper
@@ -92,8 +96,9 @@ ul, li
             max-width: 490px
         .rocket
             position: absolute
-            top: -530px
+            top: -300px
             right: 100px
+            z-index: 50
 .footer
     display: flex
     justify-content: center
@@ -217,7 +222,7 @@ ul, li
         padding: 200px 0
         &-wrapper
             .rocket
-                top: -250px
+                top: 200px
                 right: 0
                 max-width: 270px
 @media (max-width: 892px)
@@ -271,7 +276,7 @@ ul, li
                 padding-bottom: 5px
             .main-desc
                 margin: 0 auto 110px
-            .main-img
+            .main-video
                 max-width: 80%
     .second-screen
         padding: 100px 0

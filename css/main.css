@@ -59,7 +59,7 @@ ul, li {
 
 .main-screen-wrapper {
   text-align: center;
-  padding: 90px 0;
+  padding: 90px 0 0;
 }
 .main-screen-wrapper .main-title {
   font-size: 64px;
@@ -84,6 +84,12 @@ ul, li {
   background: #ffffff;
   left: 50%;
   top: 70px;
+}
+
+.video {
+  height: 750px;
+  max-width: 1235px;
+  margin: 0 auto;
 }
 
 .second-screen {
@@ -122,8 +128,9 @@ ul, li {
 }
 .second-screen-wrapper .rocket {
   position: absolute;
-  top: -530px;
+  top: -300px;
   right: 100px;
+  z-index: 50;
 }
 
 .footer {
@@ -282,7 +289,7 @@ ul, li {
     padding: 200px 0;
   }
   .second-screen-wrapper .rocket {
-    top: -250px;
+    top: 200px;
     right: 0;
     max-width: 270px;
   }
@@ -349,7 +356,7 @@ ul, li {
   .main-screen-wrapper .main-desc {
     margin: 0 auto 110px;
   }
-  .main-screen-wrapper .main-img {
+  .main-screen-wrapper .main-video {
     max-width: 80%;
   }
 
