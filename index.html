@@ -7,15 +7,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="lib/reset.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/lib/aos.css">
     <link rel="stylesheet" href="lib/vidbg.css">
     <link rel="stylesheet" href="css/main.css">
+    <script src="lib/aos.js"></script>
     <script src="lib/vidbg.js" defer></script>
     <script src="lib/rellax.min.js" defer></script>
     <script src="js/main.js" defer></script>
 </head>
 <body>
     <header class="header">
-        <div class="header-wrapper">
+        <div class="header-wrapper" data-aos="fade-down">
             <a href="#"><img src="img/logo.svg" alt="logo" class="logo"></a>
             <ul class="models">
                 <li class="models-item"><a href="#" class="models-link">Falcon 9</a></li>
@@ -39,42 +41,43 @@
     </header>
     <main class="main-screen">
         <div class="container main-screen-wrapper">
-            <h1 class="main-title">Falcon Heavy</h1>
-            <p class="main-desc">The most powerful operational rocket in the world by a factor of two</p>
+            <h1 class="main-title" data-aos="fade-up" data-aos-delay="300">Falcon Heavy</h1>
+            <p class="main-desc" data-aos="fade-up" data-aos-delay="500">The most powerful operational rocket in the
+                world by a factor of two</p>
         </div>
     </main>
-    <div class="video"></div>
+    <div class="video" data-aos="fade-up" data-aos-delay="700"></div>
     <section class="second-screen">
         <div class="container second-screen-wrapper">
-            <h2 class="overview">Falcon Heavy Overview</h2>
+            <h2 class="overview" data-aos="fade-right">Falcon Heavy Overview</h2>
             <div class="specific">
                     <span class="specific-text">
-                        <span class="attribute">HEIGHT</span>
-                        <span class="value">70 m /<span class="value-black"> 229.6 ft</span></span>
+                        <span class="attribute" data-aos="fade-right" data-aos-delay="300">HEIGHT</span>
+                        <span class="value" data-aos="fade-right" data-aos-delay="500">70 m /<span class="value-black"> 229.6 ft</span></span>
                     </span>
                     <span class="specific-text">
-                        <span class="attribute">DIAMETER</span>
-                        <span class="value">12.2 m /<span class="value-black"> 39.9 ft</span></span>
+                        <span class="attribute" data-aos="fade-right" data-aos-delay="350">DIAMETER</span>
+                        <span class="value" data-aos="fade-right" data-aos-delay="550">12.2 m /<span class="value-black"> 39.9 ft</span></span>
                     </span>
                     <span class="specific-text">
-                        <span class="attribute">MASS</span>
-                        <span class="value">1,420,788 kg /<span class="value-black"> 3,125,735 lb</span></span>
+                        <span class="attribute" data-aos="fade-right" data-aos-delay="400">MASS</span>
+                        <span class="value" data-aos="fade-right" data-aos-delay="600">1,420,788 kg /<span class="value-black"> 3,125,735 lb</span></span>
                     </span>
                     <span class="specific-text">
-                        <span class="attribute">PAYLOAD TO LEO</span>
-                        <span class="value">63,800 kg /<span class="value-black"> 140,660 lb</span></span>
+                        <span class="attribute" data-aos="fade-right" data-aos-delay="450">PAYLOAD TO LEO</span>
+                        <span class="value" data-aos="fade-right" data-aos-delay="650">63,800 kg /<span class="value-black"> 140,660 lb</span></span>
                     </span>
                     <span class="specific-text">
-                        <span class="attribute">PAYLOAD TO GTO </span>
-                        <span class="value">26,700 kg /<span class="value-black"> 58,860 lb</span></span>
+                        <span class="attribute" data-aos="fade-right" data-aos-delay="500">PAYLOAD TO GTO </span>
+                        <span class="value" data-aos="fade-right" data-aos-delay="700">26,700 kg /<span class="value-black"> 58,860 lb</span></span>
                     </span>
                     <span class="specific-text">
-                        <span class="attribute">PAYLOAD TO MARS</span>
-                        <span class="value">16,800 kg /<span class="value-black"> 37,040 lb</span></span>
+                        <span class="attribute" data-aos="fade-right" data-aos-delay="550">PAYLOAD TO MARS</span>
+                        <span class="value" data-aos="fade-right" data-aos-delay="750">16,800 kg /<span class="value-black"> 37,040 lb</span></span>
                     </span>
             </div>
-            <h2 class="performance">UNMATCHED PERFORMANCE</h2>
-            <p class="performance-desc">With more than 5 million pounds of thrust at liftoff, Falcon Heavy is the most
+            <h2 class="performance" data-aos="fade-right">UNMATCHED PERFORMANCE</h2>
+            <p class="performance-desc" data-aos="fade-right" data-aos-delay="200">With more than 5 million pounds of thrust at liftoff, Falcon Heavy is the most
                 capable rocket flying. By comparison, the liftoff thrust of the Falcon Heavy equals approximately
                 eighteen 747 aircraft at full power. Falcon Heavy can lift the equivalent of a fully loaded 737
                 jetliner—complete with passengers, luggage and fuel—to orbit.</p>
@@ -83,8 +86,8 @@
     </section>
     <footer class="footer">
         <div class="container footer-wrapper">
-            <img src="img/logo.svg" alt="logo" class="logo">
-            <ul class="social">
+            <img src="img/logo.svg" alt="logo" class="logo" data-aos="fade-up" data-aos-delay="100">
+            <ul class="social" data-aos="fade-up" data-aos-delay="200">
                 <li class="social-item"><a href="#" class="social-link">Twitter</a></li>
                 <li class="social-item"><a href="#" class="social-link">Youtube</a></li>
                 <li class="social-item"><a href="#" class="social-link">Instagram</a></li>
@@ -92,8 +95,8 @@
                 <li class="social-item"><a href="#" class="social-link">Privacy</a></li>
                 <li class="social-item"><a href="#" class="social-link">Policy</a></li>
             </ul>
-            <p class="contact">For additional questions, contact rideshare@spacex.com</p>
-            <button class="contact-us">Contact us</button>
+            <p class="contact" data-aos="fade-up" data-aos-delay="300">For additional questions, contact rideshare@spacex.com</p>
+            <button class="contact-us" data-aos="fade-up" data-aos-delay="400">Contact us</button>
         </div>
     </footer>
     <div class="popup popup-menu">

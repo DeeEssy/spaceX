@@ -128,7 +128,7 @@ ul, li {
 }
 .second-screen-wrapper .rocket {
   position: absolute;
-  top: -400px;
+  top: 100px;
   right: 100px;
   z-index: 50;
   max-width: 320px;
