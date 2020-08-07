@@ -25,6 +25,10 @@ ul, li {
   padding: 0 40px;
 }
 
+.no-scroll {
+  overflow: hidden;
+}
+
 .header {
   padding: 35px 40px;
 }
